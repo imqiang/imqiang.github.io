@@ -1,0 +1,62 @@
+---
+layout:     post
+title:      "IMQ NOTES"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2025-05-22 10:00:00
+author:     "imq"
+header-img: "img/about-bg.jpg"
+tags:
+    - 生活
+---
+
+这是引用的样式：
+> “Yeah It's on. ”
+
+
+## Markdown
+
+Hux 的 Blog 就这么开通了。
+
+[这个实现了锚点跳转 ](#build)
+
+
+
+测试
+
+测试
+
+测试
+
+- list
+- list
+- list
+
+1. list
+2. list
+3. list
+
+``` language="javascript"
+var code = "hello world";
+console.log(code);
+```
+
+链接测试 -  > [任平生的学习笔记](https://note.rpsh.net/)
+
+
+这里说锚点跳转的地方
+<p id = "build"></p>
+---
+
+## 正文
+
+
+
+正好之前就有关注过 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) 快速 Building Blog 的技术方案，非常轻松时尚。
+
+其优点非常明显：
+
+* **Markdown** 带来的优雅写作体验
+* 非常熟悉的 Git workflow ，**Git Commit 即 Blog Post**
+* 利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机
+	* 如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了
+* Jekyll 的自定制非常容易，基本就是个模版引擎
